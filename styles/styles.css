@@ -23,6 +23,17 @@ Table of Contents:
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+main {
+    width: auto;
+}
+
+section {
+    max-width: 1000px;
+ margin: auto;
+    padding: 30px;
 }
 
 /*(grijs #899CA0 en donkergroen #1C2B32)*/
@@ -30,11 +41,15 @@ Table of Contents:
     2. Typography
 ////////////////////////*/
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 h1 {
     font-size: 80px;
 }
 
-h1, h2, h3, footer {
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -47,8 +62,11 @@ h1, h2, h3, footer {
 /*///////////// 3.1 Header /////////////*/
 
 header {
-  justify-content: center;
+
     background-image:url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 
 
 }
@@ -56,23 +74,100 @@ header {
 .header-box {
     text-align: center;
     max-width: 1000px;
+    height: 400px;
+    border-style: dotted;
+    margin: auto;
 }
 
+header button {
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin: -1px;
+    font-size: 5px;
+
+}
+
+header input {
+
+}
+
+button {
+
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+article{
 
+
+}
+
+.customer-testimonials {
+    border-style: dotted;
+    margin: 10px;
+    border-radius:30%;
+    width: 800px;
+    height: 200px;
+    position: relative;
+
+}
+
+blockquote {
+
+
+}
+
+footer {
+    padding-top: 20px;
+
+
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
+.callcenter-image {
 
 
+}
+
+.support-button {
+    width: 150px;
+    height: 50px;
+    /*border-top-left-radius: 50%;*/
+    /*border-bottom-right-radius: 25%;*/
+    /*border-top-right-radius: 25%;*/
+    /*border-bottom-left-radius: 50%;*/
+    border-radius: 30%;
+}
 /*///////////// 3.4 Faq /////////////*/
+
+summary {
+    padding:10px;
+}
+
+details p {
+    background-color: #1C2B32;
+    color: #899CA0;
+    padding: 10px;
+    border-radius: 30%;
+}
 
 
 
 /*///////////// 3.5 Footer /////////////*/
 footer {
+    background-color: #1C2B32;
+}
+
+.pageBottom {
     color: #899CA0;
-background-color: #1C2B32;
+
+    text-align: center;
+    max-width: 1000px;
 }
